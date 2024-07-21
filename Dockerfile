@@ -1,5 +1,5 @@
 # base image  
-FROM python:3.12-alpine
+FROM python:3.12.4-alpine
 # setup environment variable  
 ENV DockerHOME=/uniacco_app
 
