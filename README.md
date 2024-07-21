@@ -2,6 +2,20 @@
 ## Project Description
 User Login API with Email and OTP Authentication
 
+## Get Started
+```bash
+python manage.py makemigrations
+python manage.py migrate --run-syncdb
+python manage.py runserver 0.0.0.0:8000
+```
+
+## Test
+```bash
+python manage.py makemigrations
+python manage.py migrate --run-syncdb
+python manage.py test
+```
+
 ### Project Overview
 The goal of this project is to develop a secure and efficient API system for user authentication using email and One-Time Password (OTP). This system will enable users to log in by providing their email address, receiving an OTP, and verifying the OTP to gain access.
 
