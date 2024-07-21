@@ -1,5 +1,5 @@
 
-## Project Description
+# About Project
 User Login API with Email and OTP Authentication
 
 ## Run Application
