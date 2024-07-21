@@ -2,18 +2,23 @@
 ## Project Description
 User Login API with Email and OTP Authentication
 
-## Get Started
+## Run Application
 ```bash
 python manage.py makemigrations
 python manage.py migrate --run-syncdb
 python manage.py runserver 0.0.0.0:8000
 ```
 
-## Test
+## Run Tests
 ```bash
 python manage.py makemigrations
 python manage.py migrate --run-syncdb
 python manage.py test
+```
+
+## Run Docker Container
+```bash
+docker-compose up
 ```
 
 ### Project Overview
